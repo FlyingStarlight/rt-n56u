@@ -66,7 +66,7 @@ get_bin_tmp() {
 	esac
 	mkdir "/tmp/bin"
 	wget -P "/tmp/bin/" $opt_src$ret 
-	chmod 755 -r "/tmp/bin/"
+	chmod 755 -R "/tmp/bin/"
 	echo "/tmp/bin/"$ret
 }
 
