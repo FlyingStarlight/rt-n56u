@@ -1,3 +1,8 @@
+### ATTENTION ####
+# This fork and branch is UNSTABLE as the owner is NOT the professional in openwrt field #
+# with NO even PASS the build or BUGGY #
+# To Clearly Repeat: I AM NOT RESIPONSIBLE FOR BREAKING YOUR DEVICE OR NOT WROKING FUNCTIONS #
+
 ### 固件说明 ###
 * 默认登陆IP:192.168.2.1 
 * 默认用户名/密码:admin/admin
