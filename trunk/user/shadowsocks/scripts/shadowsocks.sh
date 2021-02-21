@@ -371,6 +371,7 @@ start_local() {
 	[ "$local_server" == "nil" ] && return 1
 	[ "$local_server" == "same" ] && local_server=$GLOBAL_SERVER
 	local type=$(nvram get s5_type)
+	logger -t "SS" "选择的是$type服务器"
 	local bin=$(find_bin $type)
 	[ ! -f "$bin" ] && echo "$(date "+%Y-%m-%d %H:%M:%S") Global_Socks5:Can't find $bin program, can't start!" >>/tmp/ssrplus.log && return 1
 	case "$type" in
