@@ -64,8 +64,9 @@ get_bin_tmp() {
 	trojan) ret="trojan" ;;
 	socks5) ret="ipt2socks" ;;
 	esac
-	wget -P "/tmp/bin/"$ret $opt_src$ret 
-	chmod -r /tmp/bin
+	mkdir "/tmp/bin"
+	wget -P "/tmp/bin/" $opt_src$ret 
+	chmod 755 -r "/tmp/bin/"
 	echo "/tmp/bin/"$ret
 }
 
