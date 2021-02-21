@@ -3,6 +3,18 @@
 #### with NOT even PASS the build or BUGGY experience ####
 #### To Clarify: I AM NOT RESIPONSIBLE FOR BREAKING YOUR DEVICE OR NOT WORIKNG FUNCTIONS ####
 
+### The only difference compare to chongshengB's firm ###
+- utilize binary files download method when they were not assembled
+- - with a cursory noobish way
+
+### 特别说明 ###
+* hanwckf源码：https://github.com/hanwckf/rt-n56u
+* lean源码: https://github.com/coolsnowwolf/lede
+* 汉化字典来自：https://github.com/gorden5566/padavan
+* hanwckf更新日志：https://www.jianshu.com/p/d76a63a12eae
+* chongshengB源码：https://github.com/chongshengB/rt-n56u
+* hiboyhiboy opt源: https://opt.cn2qq.com/opt-file/
+
 ### 固件说明 ###
 * 默认登陆IP:192.168.2.1 
 * 默认用户名/密码:admin/admin
@@ -144,10 +156,4 @@ fakeroot ./build_firmware_modify PSG1218
 ### 请参阅 ###
 - https://www.jianshu.com/p/cb51fb0fb2ac
 - https://www.jianshu.com/p/6b8403cdea46
-
-### 特别说明 ###
-* hanwckf源码：https://github.com/hanwckf/rt-n56u
-* lean源码: https://github.com/coolsnowwolf/lede
-* 汉化字典来自：https://github.com/gorden5566/padavan
-* hanwckf更新日志：https://www.jianshu.com/p/d76a63a12eae
 
